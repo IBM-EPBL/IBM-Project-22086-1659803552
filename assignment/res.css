@@ -1,0 +1,43 @@
+#cv-container {
+    margin: 5%;
+    padding-left: 15%;
+}
+.bck_img{
+   background-color: rgb(90, 138, 215)
+}
+.details{
+    display: flex;
+    padding-top: 2%;
+}
+.details_in{
+    font-size: 20px;
+    padding-right: 5%;
+}
+.details_out{
+    padding-top: 4px;
+}
+.col-md-4{
+    width: 80%;
+}
+.profile{
+    width:50%;float: left;padding: 2% 5%;
+}
+.desc{
+   width:50%;float: right;padding: 6% 5%;
+}
+p#name {
+    font-size:50px
+}
+p#title{
+    font-size:25px
+}
+.m_div{
+    height: 300px;
+}
+.abt_div{
+   width:50%;float: left;
+}
+.abt_details{
+    width:50%;float: right;padding-left: 10%;
+    padding-top: 2%;
+}

@@ -92,7 +92,14 @@
             document.getElementById('title').contentEditable = 'true';
             document.getElementById('sidebarContent').contentEditable = 'true';
             document.getElementById('contentBar').contentEditable = 'true';
-            document.getElementsByClassName('res_details')[0].contentEditable = 'true';
+
+
+            // loop res_details
+            let res_details = document.getElementsByClassName('res_details');
+            for (let i = 0; i < res_details.length; i++) {
+                res_details[i].contentEditable = 'true';
+            }
+            
             var id=document.getElementById("img_clk");
             id.onclick = function() {id.src=prompt();};
         }

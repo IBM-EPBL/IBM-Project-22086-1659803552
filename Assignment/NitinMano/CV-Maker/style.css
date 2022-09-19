@@ -16,6 +16,7 @@ body{
     transition: 0.5s;
 }
 
+/* editcv active */
 .name {
     font-size: 1.25rem;
     font-weight: bold;
@@ -202,3 +203,6 @@ h2{
     font-weight: 600;
     line-height: 2.5rem;
 }
+
+
+

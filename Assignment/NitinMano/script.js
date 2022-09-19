@@ -1,17 +1,15 @@
+let x=0;
+
 const editCv = () => {
-    const lst=[];
-    
-    document.getElementById('name').contentEditable = 'true';
-    document.getElementById('title').contentEditable = 'true';
-    document.getElementById('sidebarContent').contentEditable = 'true';
-    document.getElementById('contentBar').contentEditable = 'true';
-
-
+    x=1;
     // loop res_details
     let res_details = document.getElementsByClassName('res_details');
     for (let i = 0; i < res_details.length; i++) {
         res_details[i].contentEditable = 'true';
     }
+
+    
+
     
     var id=document.getElementById("img_clk");
     id.onclick = function() {
@@ -26,8 +24,18 @@ const editCv = () => {
 
 
 
+// function changeBarWidth() {
+//     ifx==1:
+//     document.getElementById("1").style.width = "100%";
+// }
 
-
+function changeBarWidth(id) {
+    if(x==1){
+        a=prompt("Enter in %")
+        document.getElementById("1").style.width=;
+    }
+    
+}
 
 function printPageArea(areaID){
     var printContent = document.getElementById(areaID);

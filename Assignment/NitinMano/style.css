@@ -5,6 +5,17 @@ body{
     height: 1300px;
 
 }
+
+
+/* editcv hower */
+.editcv:hover{
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
 .name {
     font-size: 1.25rem;
     font-weight: bold;

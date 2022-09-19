@@ -32,7 +32,7 @@ const editCv = () => {
 function changeBarWidth(id) {
     if(x==1){
         a=prompt("Enter in %")
-        document.getElementById("1").style.width=;
+        document.getElementById("1").style.width=a;
     }
     
 }

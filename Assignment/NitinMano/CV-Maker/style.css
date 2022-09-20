@@ -206,3 +206,11 @@ h2{
 
 
 
+.progress-bar {
+    background-color: rgb(88, 138, 214);
+
+}
+
+.bg-succes {
+    background-color: rgb(97, 185,157); 
+}

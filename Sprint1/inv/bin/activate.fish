@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Project-Inventory/inv"
+set -gx VIRTUAL_ENV "/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Sprint1/inv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

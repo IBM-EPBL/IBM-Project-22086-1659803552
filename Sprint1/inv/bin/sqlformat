@@ -1,4 +1,4 @@
-#!/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Project-Inventory/inv/bin/python3
+#!/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Sprint1/inv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

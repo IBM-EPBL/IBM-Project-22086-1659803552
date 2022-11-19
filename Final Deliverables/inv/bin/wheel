@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Project Development Phase/Sprint3/inv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from wheel.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

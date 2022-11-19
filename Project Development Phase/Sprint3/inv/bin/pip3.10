@@ -1,4 +1,6 @@
-#!/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Sprint1/inv/bin/python3
+#!/bin/sh
+'''exec' "/Users/nitinmano/Projects/IBM-Project-22086-1659803552/Project Development Phase/Sprint3/inv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

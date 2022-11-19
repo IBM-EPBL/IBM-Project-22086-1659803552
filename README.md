@@ -1,5 +1,5 @@
 # Inventory Manager
-It is a web-based inventory management software based on Flask and SQLite3, also the CS50 library. It can create, update, and view data. Here is the detail about the pages:
+It is a web-based inventory management software based on Flask and IBMDB, also the CS50 library. It can create, update, and view data. Here is the detail about the pages:
 
 
 ![188475845-a1941871-98c1-4449-8c6b-1f39c48fbb08](https://user-images.githubusercontent.com/55648552/188476791-a41e8e6c-2721-40b3-b088-3ebe0aaf8832.gif)
